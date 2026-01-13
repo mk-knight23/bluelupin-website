@@ -55,7 +55,7 @@ export default function RootLayout({
 
         </div>
 
-        <main className="pt-[180px] relative z-10 min-h-screen">
+        <main className="pt-[480px] relative z-10 min-h-screen flex flex-col gap-y-[25vh] lg:gap-y-[50vh] mb-[25vh] lg:mb-[50vh]">
           {children}
         </main>
 

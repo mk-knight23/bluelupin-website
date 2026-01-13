@@ -121,12 +121,12 @@ p {
 }
 
 .section {
-  padding: 140px 0;
+  padding: 320px 0;
 }
 
 @media (min-width: 1024px) {
   .section {
-    padding: 180px 0;
+    padding: 480px 0;
   }
 }
 
@@ -375,7 +375,7 @@ p {
   }
 
   .section {
-    padding: 120px 0;
+    padding: 280px 0;
   }
 }
 

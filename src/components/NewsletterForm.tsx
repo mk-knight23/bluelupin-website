@@ -92,7 +92,7 @@ export default function NewsletterForm() {
                 </div>
             )}
 
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4">
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-8">
                 <div className="flex-1">
                     <input
                         type="email"

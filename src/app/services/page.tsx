@@ -62,7 +62,7 @@ export default function ServicesPage() {
     return (
         <>
             {/* Hero Section */}
-            <section className="py-32 lg:py-40 text-center">
+            <section className="py-96 lg:py-[400px] text-center border-b border-white/[0.08]">
                 <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                     <span className="text-[#4facfe] text-[12px] font-semibold uppercase tracking-[0.2em]">
                         Our Services
@@ -80,7 +80,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Services Grid */}
-            <section className="pb-32">
+            <section className="pb-96">
                 <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         {services.map((service) => (
@@ -125,7 +125,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Process Section */}
-            <section className="py-32 bg-[#0a0a14]">
+            <section className="py-96 bg-[#0a0a14] border-t border-b border-white/[0.08]">
                 <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                     <div className="text-center mb-16">
                         <span className="text-[#4facfe] text-[12px] font-semibold uppercase tracking-[0.2em]">
@@ -159,7 +159,7 @@ export default function ServicesPage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-32">
+            <section className="py-96 border-b border-white/[0.08]">
                 <div className="max-w-[1280px] mx-auto px-6 lg:px-10 text-center">
                     <h2 className="text-[36px] md:text-[44px] font-bold text-white mb-6 leading-tight">
                         Ready to start your{' '}

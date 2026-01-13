@@ -45,7 +45,7 @@ const JourneyTimeline = () => {
     ];
 
     return (
-        <section className="py-32">
+        <section className="py-96 border-b border-white/[0.08]">
             <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                 <div className="text-center mb-16">
                     <span className="text-[#4facfe] text-[12px] font-semibold uppercase tracking-[0.2em]">
@@ -98,7 +98,7 @@ const StatsSection = () => {
     ];
 
     return (
-        <section className="py-32 bg-[#0a0a14]">
+        <section className="py-96 bg-[#0a0a14] border-b border-white/[0.08]">
             <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                     {stats.map((stat) => (
@@ -136,7 +136,7 @@ const LeadershipSection = () => {
     ];
 
     return (
-        <section className="py-32">
+        <section className="py-96 border-b border-white/[0.08]">
             <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                 <div className="text-center mb-16">
                     <span className="text-[#4facfe] text-[12px] font-semibold uppercase tracking-[0.2em]">
@@ -182,7 +182,7 @@ const ValuesSection = () => {
     ];
 
     return (
-        <section className="py-32 bg-[#0a0a14]">
+        <section className="py-96 bg-[#0a0a14] border-b border-white/[0.08]">
             <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                 <div className="text-center mb-16">
                     <span className="text-[#4facfe] text-[12px] font-semibold uppercase tracking-[0.2em]">
@@ -217,7 +217,7 @@ export default function AboutPage() {
     return (
         <>
             {/* Hero Section */}
-            <section className="py-32 lg:py-40 text-center">
+            <section className="py-96 lg:py-[400px] text-center border-b border-white/[0.08]">
                 <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                     <h1 className="text-[48px] md:text-[64px] font-bold text-white mb-4 leading-[1.1]">About Us</h1>
                     <p className="text-[#f97316] uppercase tracking-[0.2em] text-[13px] font-semibold">Our Journey</p>

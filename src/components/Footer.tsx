@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="bg-[#080810] relative overflow-hidden">
             {/* CTA Banner */}
-            <div className="border-t border-white/[0.04] pt-24 pb-8">
+            <div className="border-t border-white/[0.04] pt-64 pb-24">
                 <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                     <div className="flex justify-center">
                         <Link
@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
 
             {/* Main Footer Content */}
-            <div className="border-t border-white/[0.06] pt-16 pb-12">
+            <div className="border-t border-white/[0.06] pt-48 pb-[100px]">
                 <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
                         {/* Logo & Tagline */}
@@ -107,7 +107,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Bar */}
-            <div className="border-t border-white/[0.06] py-6">
+            <div className="border-t border-white/[0.06] py-16">
                 <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                         {/* Social Links */}

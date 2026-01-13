@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 // Hero Section - Pixel Perfect Match
 const HeroSection = () => (
-  <section className="relative min-h-[calc(100vh-72px)] flex items-center justify-center overflow-hidden pt-20 pb-32">
+  <section className="relative min-h-[calc(100vh-72px)] flex items-center justify-center overflow-hidden pt-64 pb-96">
     {/* Floating 3D Elements - Exact positioning */}
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       {/* Large cube - top right */}
@@ -81,7 +81,7 @@ const HeroSection = () => (
     </div>
 
     {/* Bottom Glow Effect */}
-    <div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-[#4facfe]/[0.06] via-[#2563eb]/[0.03] to-transparent pointer-events-none" />
+    <div className="absolute bottom-0 left-0 right-0 h-[400px] bg-gradient-to-t from-[#4facfe]/[0.06] via-[#2563eb]/[0.03] to-transparent pointer-events-none" />
   </section>
 );
 
@@ -97,14 +97,14 @@ const TrustedBySection = () => {
   ];
 
   return (
-    <section className="py-32 border-t border-b border-white/[0.04]">
+    <section className="py-96 border-t border-b border-white/[0.08]">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
         <p className="text-center text-[#5c5c70] text-[13px] uppercase tracking-[0.15em] font-medium mb-12">
           Trusted by industry leaders
         </p>
 
         {/* Client logos - Two rows with proper spacing */}
-        <div className="flex flex-wrap items-center justify-center gap-x-16 gap-y-8">
+        <div className="flex flex-wrap items-center justify-center gap-x-48 gap-y-24">
           {clients.map((client) => (
             <div
               key={client.name}
@@ -128,7 +128,7 @@ const TrustedBySection = () => {
 
 // What We Deliver Section
 const WhatWeDeliverSection = () => (
-  <section className="py-32">
+  <section className="py-96 border-b border-white/[0.08]">
     <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
       <div className="text-center mb-16">
         <span className="text-[#f97316] text-[12px] font-semibold uppercase tracking-[0.2em]">
@@ -195,7 +195,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-40 relative">
+    <section className="py-[300px] relative border-b border-white/[0.08]">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
         <div className="text-center mb-16">
           <span className="text-[#4facfe] text-[12px] font-semibold uppercase tracking-[0.2em]">
@@ -266,7 +266,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-32 bg-[#0a0a14]">
+    <section className="py-96 bg-[#0a0a14] border-b border-white/[0.08]">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-10">
         <div className="text-center mb-16">
           <span className="text-[#4facfe] text-[12px] font-semibold uppercase tracking-[0.2em]">
@@ -301,7 +301,7 @@ const TestimonialsSection = () => {
 
 // CTA Section - Exact match
 const CTASection = () => (
-  <section className="pt-40 pb-48 relative overflow-hidden">
+  <section className="pt-[300px] pb-[400px] relative overflow-hidden">
     <div className="absolute inset-0 bg-gradient-to-r from-[#4facfe]/[0.05] via-[#2563eb]/[0.08] to-[#00f2fe]/[0.05]" />
     <div className="max-w-[1280px] mx-auto px-6 lg:px-10 relative z-10 text-center">
       <h2 className="text-[36px] md:text-[52px] font-bold text-white mb-6 leading-tight">
